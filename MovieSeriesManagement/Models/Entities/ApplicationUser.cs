@@ -15,6 +15,7 @@ namespace MovieSeriesManagement.Models.Entities
         [StringLength(100)]
         public string LastName { get; set; }
 
+        // Quitar el atributo Required para permitir valores nulos
         [StringLength(500)]
         public string ProfilePictureUrl { get; set; }
 
